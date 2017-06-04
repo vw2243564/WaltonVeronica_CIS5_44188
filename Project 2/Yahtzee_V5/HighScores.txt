@@ -1,0 +1,3 @@
+High scores in Yahtzee
+Name       Score
+ki           82
