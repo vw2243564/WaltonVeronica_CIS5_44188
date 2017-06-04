@@ -1,0 +1,3 @@
+High scores in Yahtzee
+Name       Score
+ju           14

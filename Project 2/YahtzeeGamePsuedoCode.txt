@@ -1,0 +1,118 @@
+/* 
+ * File:   main.cpp
+ * Author: Veronica Walton
+ * Created on April 14, 2017 4:30AM
+ * Purpose: Yahtzee Version 3
+ */
+//System Libraries
+//Input - Output Library
+//Srand to set the seed
+//Time for rand
+//Format library
+//File IO
+//String Library
+//Name-space under which system libraries exist
+//Function Prototypes
+//Instructions Function
+//Execution begins here
+//Set the random number seed
+//Declare variables
+//Name of user
+//Input File
+//Output File
+//User inputs of Y/N
+//Y/N inputs
+//Score holder
+//Score holder for Ones
+//Score holder for Twos
+//Score holder for Threes
+//Score holder for Fours
+//Score holder for Fives
+//Score holder for Sixes
+//Score holder for 3 of a kind
+//Score holder for 4 of a kind
+//Score holder for Full House
+//Score holder for Chance
+//Score holder for Small Straight
+//Score holder for Large Straight
+//Score holder for Yahtzee
+//Temp sums for Small Straight
+//Temp variables to make sure the user can't choose the same value more than once
+//Output beginning of game
+//Take user name
+//Prompt user for instructions
+ //Input validation
+ //If yes display instructions
+//If no start game
+//Roll Dice, 1-6
+ //Table for dice
+//Show user dice
+ //Output options for the user to choose from
+//Ask if the user wants to re-roll
+ //User gets to re-roll each die 3 times
+//Re-roll die 1
+//Re-roll die 2
+//Re-roll die 3
+//Re-roll die 4
+//Re-roll die 5
+//Table for dice
+//Show user dice
+//Leave loop if user does not want to re-roll
+//Ask user if they want to re-roll again
+//Prompt user for option
+//Catch if the user tries to pick the same options
+//Categories for the user to choose from
+//If Ones is chosen, add the dice that are 1
+//If Twos is chosen, add the dice that are 2
+//If Threes is chosen, add the dice that are 3
+//If Fours is chosen, add the dice that are 4
+//If Fives is chosen, add the dice that are 5
+//If Sixes is chosen, add the dice that are 6
+//If 3 of a kind is chosen, match 3 dice and add them
+//Die combination 1,2,3
+//Die combination 1,2,4
+//Die combination 1,2,5
+//Die combination 1,3,4
+//Die combination 1,4,5
+//Die combination 2,3,4
+//Die combination 2,3,5
+//Die combination 2,4,5
+//Die combination 3,4,5
+//If 4 of a kind is chosen, match 4 dice and add them
+//Die combination 1,2,3,4
+//Die combination 1,2,3,5
+//Die combination 1,2,4,5
+//Die combination 1,3,4,5
+//Die combination 2,3,4,5
+//If Full House is chosen, match 3 dice and 2 dice
+//Die 1,2,3 are the same
+//Die 1,2,4 are the same
+//Die 1,2,5 are the same
+//Die 1,3,4 are the same
+//Die 1,3,5 are the same
+//Die 1,4,5 are the same
+//Die 2,3,4 are the same
+//Die 2,3,5 are the same
+//Die 2,4,5 are the same
+//Die 3,4,5 are the same
+//If Small Straight is chosen, add up each possible combination
+//10,14 and 18 are the possibilities small straight can add up to
+//Check if any of the options are valid
+//If no options are valid the user gets no points
+//If Large Straight it chosen, check to see if it fits parameters
+                        //1-5 Straight//2-6 Straight
+//If neither large straight conditions are met, the user gets no points
+//If chance is chosen, sum all dice
+//If Yahtzee is chosen, see if all dice are the same value
+//If not the user gets 0 points
+//Prompt user to re-pick if any invalid options
+//Only output total score if user inputs a valid value
+//End game once roll is 13
+//Percentage of max score
+ //Open input and output files
+//Prompt user for high score
+//If yes, read score from file, output highest score
+//If no, end game
+//Close Files and Exit
+//If anything else re-prompt user
+//Close Files and Exit
