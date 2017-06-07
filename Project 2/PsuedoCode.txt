@@ -1,0 +1,176 @@
+/* 
+ * File:   main.cpp
+ * Author: Veronica Walton
+ * Created on June 2, 2017 1:50 PM
+ * Purpose:  Yahtzee Version 7 - Final
+ */
+ 
+ //System Libraries
+	//Input - Output Library
+	//Srand to set the seed
+	//Time for rand
+	//Format library
+	//File IO
+	//String Library
+	//To define Vectors
+	//To define Vectors
+	
+//Global Constants
+	//Column Constants
+	
+//Function Prototypes
+	//Menu Function
+	//Instructions Function
+	//Score function
+	//Output High Scores
+	//Output Game Stats
+	//Roll and re-roll dice
+	//Function for adding number category
+	//Function for 3 of a Kind
+	//Function for 4 of a Kind
+	//Function for Full House
+	//Function for Small Straight
+	//Function for Large Straight
+	//Function for Chance
+	//Function for Yahtzee
+	//Search Function
+	//Sort Function
+	
+//Execution begins here
+	//Set the random number seed
+	//Declare variables
+		//Option for menu selection
+		//Name of user
+		//Array of 5 dice
+		//Score and temp for each category
+		//Input High Scores File
+		//Numbers of high scores
+		//Output High Scores File
+		//Output Game Stats File
+		//Percentage of max score
+	//Show menu and do loop
+		//Show menu function
+		//Choice from menu
+		//Options from menu
+			//Case 1: Game starts here
+				//Take user name
+				//Loop 13 rolls for game
+					//Roll dice function and re-roll if necessary
+					//Prompt user for option
+					//Catch already chosen options with while loop
+					//Number addition Function
+					//Three of a kind Function
+					//Four of a kind Function
+					//Full House Function
+					//Small Straight Function
+					//Large Straight Function
+					//Chance Function
+					//Yahtzee Function
+					//Only output total score if user inputs a valid value
+			//Case 2 Instructions
+				//Instructions Function
+			//Case 3 Show High Scores
+				//Output previous high scores
+				//Sort function
+				//Output sorted scores
+			//Case 4 Zero categories
+				//Search Function
+				//Output zeros if found, else not
+			//Default exit program
+	//Output to file
+	//Close Files
+//Exit Stage Right
+
+//Void menu
+	//output menu
+	
+//Void Instructions
+	//Output Instructions
+
+//Int Show Score
+	//Calculate Score
+	
+//Void Show Score
+	//Output High Scores to file
+	
+//Void Out Stats
+	//Output categories to file
+	
+//Void Roll Dice
+	//Declare variables
+	//Roll Dice
+		//Assign each die a value 1-6
+	//Table for dice
+	//Show user dice
+	//Output options for the user to choose from
+	//Ask if the user wants to re-roll
+		//If yes Re-roll the dice
+		//Table for dice
+		//Show user dice
+		
+//Void AddNum
+	//When pick is 1-6
+	//For loop to add array
+	
+//Void Add 3 Kind
+	//When pick is 7
+	//Die combination 1,2,3
+	//Die combination 1,2,4
+	//Die combination 1,2,5
+	//Die combination 1,3,4
+	//Die combination 1,3,5
+	//Die combination 1,4,5
+	//Die combination 2,3,4
+	//Die combination 2,3,5
+	//Die combination 2,4,5
+	//Die combination 3,4,5
+	//Add all the values
+	
+//Void Add 4 Kind
+	//When pick is 8
+	//Die combination 1,2,3,4
+	//Die combination 1,2,3,5
+	//Die combination 1,2,4,5
+	//Die combination 1,3,4,5
+	//Die combination 2,3,4,5
+	//Add all the values
+	
+//Void Add Full House
+	//When pick is 9
+	//Die 1,2,3 are the same
+	//Die 1,2,4 are the same
+	//Die 1,2,5 are the same
+	//Die 1,3,4 are the same
+	//Die 1,3,5 are the same
+	//Die 1,4,5 are the same
+	//Die 2,3,4 are the same
+	//Die 2,3,5 are the same
+	//Die 2,4,5 are the same
+	//Die 3,4,5 are the same
+	//If no options are valid the user gets no points
+	
+//Void Add Small Straight
+	//When pick is 10
+	//Dice 2,3,4,5 combo
+	//Dice 1,3,4,5 combo
+	//Dice 1,2,4,5 combo
+	//Dice 1,2,3,5 combo
+	//Dice 1,2,3,4 combo
+	//10,14 and 18 are the possibilities small straight can add up to
+    //Check if any of the options are valid
+	//If no options are valid the user gets no points
+	
+//Void Add Large Straight
+	//When pick is 11
+	//1-5 Straight
+	//2-6 Straight
+	//If neither large straight conditions are met, the user gets no points
+	
+//Void Add Chance
+	//When pick is 12
+	//Add dice together
+
+//Void Add Yahtzee
+	//When pick is 13
+	//If dice are the same
+	//If not the user gets 0 points
